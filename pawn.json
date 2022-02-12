@@ -1,0 +1,19 @@
+{
+	"user": "CarlM-69",
+	"repo": "RNPC",
+	"entry": "test.pwn",
+	"output": "test.amx",
+    "resources": [
+        {
+            "name": "RNPC.so",
+            "platform": "linux"
+        },
+        {
+            "name": "RNPC.dll",
+            "platform": "windows"
+        }
+    ],
+	"dependencies": [
+		"sampctl/samp-stdlib"
+	]
+}
