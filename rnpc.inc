@@ -517,7 +517,7 @@ public OnPlayerSpawn(playerid) {
 	}
 	
 	#if defined RNPC_OnPlayerSpawn
-		return RNPC_OnPlayerSpawn(playerid);
+		return CallLocalFunction("RNPC_OnPlayerSpawn", "d", playerid);
 	#else
 		return 1;
 	#endif
