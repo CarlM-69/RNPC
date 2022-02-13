@@ -13,11 +13,6 @@
 // Identify messages as RNPC commands
 // (alternative communication protocol for future versions)
 #define RNPC_COMM_ID				520
- 
- 
-#define PLAYER_RECORDING_TYPE_NONE		0
-#define PLAYER_RECORDING_TYPE_DRIVER	1
-#define PLAYER_RECORDING_TYPE_ONFOOT	2
 
 #define RNPC_SPEED_SPRINT				(0.0095)
 #define RNPC_SPEED_RUN					(0.0057)
